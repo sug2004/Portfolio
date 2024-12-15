@@ -2,6 +2,7 @@ import logo from "../assets/S1.png"
 import { FaLinkedin } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
+import { ImProfile } from "react-icons/im";
 
 function Navbar() {
   return (
@@ -13,6 +14,8 @@ function Navbar() {
             <a href="https://www.linkedin.com/in/sugrish-v-m-2793702b3/"><FaLinkedin /></a>
             <a href="https://github.com/sug2004"><FaGithub/></a>
             <a href="https://www.instagram.com/sugrishvm/"><FaInstagram/></a>
+            <a href="src\assets\Resume\2SUGRISH V M WEB DEVELOPER ML ENGINNER .pdf" alt="Resume" target="_blank"><ImProfile /></a>
+
         </div>
     </nav>
   )
