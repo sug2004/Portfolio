@@ -14,7 +14,7 @@ function Navbar() {
             <a href="https://www.linkedin.com/in/sugrish-v-m-2793702b3/"><FaLinkedin /></a>
             <a href="https://github.com/sug2004"><FaGithub/></a>
             <a href="https://www.instagram.com/sugrishvm/"><FaInstagram/></a>
-            <a href="src\assets\Resume\2SUGRISH V M WEB DEVELOPER ML ENGINNER .pdf" alt="Resume" target="_blank"><ImProfile /></a>
+            <a href="src\2SUGRISH V M WEB DEVELOPER ML ENGINNER .pdf" alt="Resume" target="_blank"><ImProfile /></a>
 
         </div>
     </nav>
