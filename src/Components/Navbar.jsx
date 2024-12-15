@@ -4,6 +4,13 @@ import { FaGithub } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 import { ImProfile } from "react-icons/im";
 
+import resumePdf from "../assets/Resume/2SUGRISH V M WEB DEVELOPER ML ENGINNER .pdf"
+
+const handleDownloadResume = () =>{
+  const resumeUrl = resumePdf;
+  window.open(resumeUrl,"_blank");
+};
+
 function Navbar() {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
@@ -14,7 +21,7 @@ function Navbar() {
             <a href="https://www.linkedin.com/in/sugrish-v-m-2793702b3/"><FaLinkedin /></a>
             <a href="https://github.com/sug2004"><FaGithub/></a>
             <a href="https://www.instagram.com/sugrishvm/"><FaInstagram/></a>
-            <a href="src\2SUGRISH V M WEB DEVELOPER ML ENGINNER .pdf" alt="Resume" target="_blank"><ImProfile /></a>
+            <button onClick={handleDownloadResume} ><ImProfile/></button>
 
         </div>
     </nav>
