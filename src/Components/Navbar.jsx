@@ -18,10 +18,13 @@ function Navbar() {
             <img className="mx-2 w-10" src={logo}  alt="logo"/>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <a href="https://www.linkedin.com/in/sugrish-v-m-2793702b3/"><FaLinkedin /></a>
-            <a href="https://github.com/sug2004"><FaGithub/></a>
-            <a href="https://www.instagram.com/sugrishvm/"><FaInstagram/></a>
-            <button onClick={handleDownloadResume} ><ImProfile/></button>
+            <a className="hover:bg-gradient-to-r hover:from-pink-300 hover:via-slate-500 hover:to-purple-500 text-white font-bold rounded " href="https://www.linkedin.com/in/sugrish-v-m-2793702b3/"><FaLinkedin /></a>
+            <a className="hover:bg-gradient-to-r hover:from-pink-300 hover:via-slate-500 hover:to-purple-500 text-white font-bold rounded " href="https://github.com/sug2004"><FaGithub/></a>
+            <a className="hover:bg-gradient-to-r hover:from-pink-300 hover:via-slate-500 hover:to-purple-500 text-white font-bold rounded" href="https://www.instagram.com/sugrishvm/"><FaInstagram/></a>
+            <button className="hover:bg-gradient-to-r hover:from-pink-300 hover:via-slate-500 hover:to-purple-500 text-white font-bold rounded" onClick={handleDownloadResume}>
+               <ImProfile />
+            </button>
+
 
         </div>
     </nav>
