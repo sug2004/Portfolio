@@ -45,7 +45,7 @@ export const PROJECTS = [
     technologies: ["Keras", "Sci-Kit Learn", "Matplotlib", "ML Algorithms"],
   },
   {
-    title: "SOCAIL MEDIA PLATFORM",
+    title: "SOCIAL MEDIA PLATFORM",
     image: project4,
     description:
       "Successfully designed and implemented a full-stack Twitter clone with user authentication, real-time tweet updates, and a responsive UI using React, Node.js, and MongoDB to replicate user profiles, timelines, and direct messaging.",
