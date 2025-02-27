@@ -41,7 +41,7 @@ export const PROJECTS = [
     title: "Crop Prediction",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "Cultivating the future with data-driven insights to predict crop yields and optimize farming practices.",
     technologies: ["Keras", "Sci-Kit Learn", "Matplotlib", "ML Algorithms"],
   },
   {
