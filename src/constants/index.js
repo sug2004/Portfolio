@@ -7,49 +7,101 @@ import images1 from "../assets/achievements/images1.jpg";
 import images2 from "../assets/achievements/images2.jpg";
 import images3 from "../assets/achievements/images3.jpg";
 
-export const HERO_CONTENT = `I am a dedicated full stack developer with extensive expertise in the MERN stack (MongoDB, Express.js, React, Node.js) and cloud technologies.  I have developed robust and scalable web applications, leveraging the power of cloud platforms to ensure high availability and performance. Additionally, I possess experience in machine learning, enabling me to integrate intelligent features into my projects. My goal is to utilize my diverse skill set to create innovative solutions that enhance business growth and deliver exceptional user experiences..`;
+export const HERO_CONTENT = `I'm a Software Engineer specializing in Full-Stack Development, Backend Engineering, and AI-powered applications. I build scalable web platforms using Next.js, NestJS, TypeScript, PostgreSQL, and MongoDB while integrating Large Language Models through LangChain, LangGraph, Retrieval-Augmented Generation (RAG), and agentic workflows. My passion lies in developing intelligent, production-ready systems that combine modern software engineering with AI to solve real-world problems.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
+export const ABOUT_TEXT = `I'm a Software Engineer with a strong foundation in backend architecture, full-stack web development, and AI application engineering. My experience spans building scalable APIs, collaborative web platforms, and LLM-powered applications using technologies such as NestJS, Next.js, React, PostgreSQL, MongoDB, and AWS. I enjoy designing clean system architectures, integrating AI capabilities with existing applications, and continuously exploring emerging technologies in the GenAI ecosystem. I'm passionate about writing maintainable code, solving challenging engineering problems, and building products that create real value for users.`;
 
 export const EXPERIENCES = [
   {
-    year: "July 2024 - Oct 2024",
-    role: "Full Stack Developer",
-    company: "ALTRUISTY",
-    description: `Role played a Back-end engineer in building Employee management system for different role of authorization ofthe organization.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "March 2026 - June 2026",
+    role: "Programmer Analyst Intern",
+    company: "Cognizant Technology Solutions",
+    description:
+      "Engineered enterprise-scale data warehouse solutions using AWS Redshift and developed event-driven ETL pipelines with AWS Glue, Lambda, and S3 to automate large-scale data ingestion, transformation, and analytics workflows.",
+    technologies: [
+      "AWS Redshift",
+      "AWS Glue",
+      "AWS Lambda",
+      "AWS S3",
+      "SQL",
+      "Python",
+    ],
+  },
+  {
+    year: "July 2025 - Dec 2025",
+    role: "Software Development Engineer Intern",
+    company: "ADRIG AI Technologies Pvt. Ltd.",
+    description:
+      "Built scalable backend services, integrated Microsoft Graph and Shopify APIs, optimized database performance, and developed intelligent OCR and document-processing systems for enterprise automation.",
+    technologies: [
+      "NestJS",
+      "Next.js",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "MongoDB",
+      "Microsoft Graph API",
+      "Shopify API",
+      "Azure",
+    ],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "AI Workspace",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A collaborative AI-powered workspace where users can chat with documents, manage projects, build AI agents, and perform intelligent document processing using RAG, LangChain, and OpenAI.",
+    technologies: [
+      "Next.js",
+      "NestJS",
+      "LangChain",
+      "LangGraph",
+      "OpenAI",
+      "BullMQ",
+      "PostgreSQL",
+    ],
   },
   {
-    title: "SIGN LANGUAGE PREDICTION",
+    title: "RAG-Based Document Q&A Assistant",
     image: project2,
     description:
-      "Developed a real-time sign language recognitionsystem using Mediapipe, TensorFlow, and deep learning, enablingseamless communication for the hearing impaired.",
-    technologies: ["Computer Vision", "Mediapipe", "TensorFlow", "Keras"],
+      "Built a Retrieval-Augmented Generation pipeline that processes PDFs and documents, stores embeddings in pgvector, retrieves relevant context, and generates grounded AI responses with citations.",
+    technologies: [
+      "LangChain",
+      "OpenAI API",
+      "pgvector",
+      "PostgreSQL",
+      "Next.js",
+      "TypeScript",
+    ],
   },
   {
-    title: "Crop Prediction",
+    title: "Code-Sync",
     image: project3,
     description:
-      "Cultivating the future with data-driven insights to predict crop yields and optimize farming practices.",
-    technologies: ["Keras", "Sci-Kit Learn", "Matplotlib", "ML Algorithms"],
+      "A real-time collaborative code editor supporting multiple users with synchronized editing, operational-transform-style conflict resolution, WebSocket communication, and live presence indicators.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Socket.IO",
+      "Express",
+      "MongoDB",
+    ],
   },
   {
-    title: "SOCIAL MEDIA PLATFORM",
+    title: "Enterprise OCR & Document Processing Platform",
     image: project4,
     description:
-      "Successfully designed and implemented a full-stack Twitter clone with user authentication, real-time tweet updates, and a responsive UI using React, Node.js, and MongoDB to replicate user profiles, timelines, and direct messaging.",
-    technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
+      "Designed and developed an intelligent OCR-based document processing system capable of extracting, validating, and processing enterprise documents using AI-assisted parsing pipelines.",
+    technologies: [
+      "Python",
+      "OpenCV",
+      "OCR",
+      "NestJS",
+      "PostgreSQL",
+    ],
   },
 ];
 
@@ -68,13 +120,7 @@ export const ACHIVEMENTS = [
       "Build a bot for voice-letter for Bank loan Approval automation using the UiPath tool.",
     technologies: ["Studio", "Orchestrator", "Robot", "Process Mining"],
   },
-  {
-    title: "CTF(Capture the Flag)",
-    image: images3,
-    description:
-      "Got in top 50 participates among asia in CTF competition",
-    technologies: ["Cryptography", "Steganography", "Scripting", "Web Exploitation"],
-  },
+  
 ];
 
 export const CONTACT = {

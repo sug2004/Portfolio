@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa"
 // import { FaInstagram } from "react-icons/fa"
 import { ImProfile } from "react-icons/im";
 
-import resumePdf from "../assets/Resume/CV Sugar.pdf"
+import resumePdf from "../assets/Resume/SugarCV(AI).pdf"
 
 const handleDownloadResume = () =>{
   const resumeUrl = resumePdf;
